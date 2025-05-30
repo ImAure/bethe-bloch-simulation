@@ -17,7 +17,7 @@
 #define R_TAR   2.7     /* target density */
 #define X_TAR   0.0020  /* target thickness (cm) */
 
-#define FILE_PATH       "path/to/file"
+#define FILE_PATH       "./out.dat"
 #define MAX(A,B)        (A > B) ? A : B
 
 double wmax(double m_e, double beta2, double gamma, double gamma2, double m, double m2);
