@@ -61,7 +61,7 @@ int myexit(const int status, const char *message) {
     switch (status) {
         case ERR_ARGC:
             fprintf(stderr, "! Error: Incorrect number of arguments.\n");
-            fprintf(stderr, "! Usage: %s <initial_energy(MeV)> <steps> <thickness> <output_file>\n", message);
+            fprintf(stderr, "! Usage: %s <initial_energy(MeV)> <thickness(cm)> <steps> <output_file>\n", message);
             return status;
         case ERR_FILE:
             fprintf(stderr, "! Error: Could not open output file at '%s'.\n", message);
@@ -214,4 +214,3 @@ int main(int argc, char *argv[]) {
     }
     return 0;
 }
-
