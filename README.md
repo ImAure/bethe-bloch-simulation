@@ -31,4 +31,4 @@ Once compiled, you can run the simulation with:
 
 The program will prompt you to select the projectile and target material. Once the simulation is complete, data will be written to the specified output file.  
 
-You will also be asked whether you want to generate a plot of the energy loss. If you choose yes, make sure you have `python3` and the required Python libraries (e.g., `matplotlib`) installed.
+You will also be asked whether you want to generate a plot of the energy loss. If you choose yes, make sure you have `python3` and the required Python libraries (e.g., `matplotlib`, `numpy`) installed.
